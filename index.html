@@ -2,9 +2,20 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
+<style type="text/css">
+<!--
+h1 {
+	font-weight: normal;
+}
+-->
+</style>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.13/vue.min.js"></script>
 <title></title>
 </head>
 <body>
-<h1>体調が悪い</h1>
+<div id="neko">
+<h1><a @click="set_random_neko">{{ neko }}になりたい</a></h1>
+</div>
+<script type="text/javascript" src="neko.js"></script>
 </body>
 </html>
