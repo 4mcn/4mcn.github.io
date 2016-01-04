@@ -1,11 +1,11 @@
 var neko = new Vue({
-	el: '#neko',
-	data: function () {
-		return {
+  el: '#neko',
+  data: function () {
+    return {
       hoge: ['ねこ', 'ネコ', '猫', '🐱'],
       neko: 'n'
-		};
-	},
+    };
+  },
   methods: {
     shuffle: function (array) {
       for (var i = array.length - 1; i >= 0; i--) {
